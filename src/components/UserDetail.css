@@ -1,0 +1,54 @@
+.user-detail {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-detail-bg {
+    background-color: rgba(0, 0, 0, 0.858);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.user-detail-content {
+    position: relative;
+    max-width: 1200px;
+    background-color: rgb(205, 227, 241);
+    padding: 30px; 
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.user-detail-content img {
+    display: block;
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%;
+    object-fit: cover; 
+    margin-bottom: 10px; 
+}
+
+.user-detail-content h4 {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+.user-detail-content h5
+{
+    font-weight: 300;
+}
+ .user-text-detail{
+    text-align: center;
+ }

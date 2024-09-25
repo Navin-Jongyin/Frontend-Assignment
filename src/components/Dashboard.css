@@ -1,0 +1,42 @@
+.app-section {
+    padding: 30px;
+}
+
+.app-container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 16px;
+    row-gap: 16px;
+}
+
+
+@media (max-width: 1024px) {
+    .app-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) { 
+    .app-grid {
+        grid-template-columns: 1fr; 
+    }
+}
+
+.welcome-message {
+    padding: 16px;
+    font-size: 25px;
+    background-color: rgb(206, 235, 255);
+}
+
+
+@media (max-width: 768px) {
+    .welcome-message {
+        font-size: 20px; 
+    }
+}
